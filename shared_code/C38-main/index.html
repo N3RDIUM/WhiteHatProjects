@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBATYdg8FmADsoGan_UTVbnM8jT9Q3JMBo",
+    authDomain: "multiplayergame-6eb30.firebaseapp.com",
+    databaseURL: "https://multiplayergame-6eb30-default-rtdb.firebaseio.com",
+    projectId: "multiplayergame-6eb30",
+    storageBucket: "multiplayergame-6eb30.appspot.com",
+    messagingSenderId: "146574886045",
+    appId: "1:146574886045:web:d36ad30cb30fc65d020074"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script>
+      //Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBYV9kWljd-8zlRsYSLGIv2zBX4MhkNAo8",
+        authDomain: "multiplayer-car-racing-game.firebaseapp.com",
+        databaseURL: "https://multiplayer-car-racing-game.firebaseio.com",
+        projectId: "multiplayer-car-racing-game",
+        storageBucket: "",
+        messagingSenderId: "936147099930",
+        appId: "1:936147099930:web:dba47c5bb648f4ef"
+      };
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
