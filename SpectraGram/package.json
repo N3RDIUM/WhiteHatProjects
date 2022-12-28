@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-web": "~0.13.12",
+    "firebase": "8.2.3",
+    "expo-font": "~9.2.1",
+    "expo-camera": "~11.2.2",
+    "expo-app-auth": "~10.2.2",
+    "expo-constants": "~11.0.1",
+    "expo-app-loading": "*",
+    "react-navigation": "*",
+    "@expo/vector-icons": "^12.0.0",
+    "react-native-paper": "3.6.0",
+    "expo-google-sign-in": "~9.2.1",
+    "react-native-camera": "*",
+    "expo-google-app-auth": "*",
+    "react-native-screens": "~3.4.0",
+    "@react-navigation/stack": "*",
+    "react-native-camera-kit": "*",
+    "react-native-reanimated": "~2.2.0",
+    "@react-navigation/drawer": "*",
+    "@react-navigation/native": "*",
+    "react-native-image-picker": "*",
+    "react-native-vector-icons": "*",
+    "react-native-gesture-handler": "~1.10.2",
+    "@react-navigation/bottom-tabs": "*",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-responsive-fontsize": "*",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/async-storage": "~1.12.0",
+    "react-navigation-material-bottom-tabs": "*",
+    "@react-navigation/material-bottom-tabs": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
+}
